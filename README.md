@@ -1,2 +1,1 @@
-**run** 
-## python3 tic-tac-toe.py
+## > python3 path/tic-tac-toe.py
