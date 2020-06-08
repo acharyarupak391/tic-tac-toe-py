@@ -54,7 +54,6 @@ def get_command(symbols, turn):
             return get_command(symbols, turn)
     command = tuple([int(command.split(' ')[0]), int(command.split(' ')[1])])
     
-    i = 0
     for r in range(3):
         for c in range(3):
             i = r * 3 + c
