@@ -32,11 +32,13 @@ def print_state(symbols):
     
     s = symbols.replace("_", " ")
     
-    print("---------")
-    print(f"| {s[0]} {s[1]} {s[2]} |")
-    print(f"| {s[3]} {s[4]} {s[5]} |")
-    print(f"| {s[6]} {s[7]} {s[8]} |")
-    print("---------")
+    
+    print(f"\n\t {s[0]} | {s[1]} | {s[2]} ")
+    print("\t-----------")
+    print(f"\t {s[3]} | {s[4]} | {s[5]} ")
+    print("\t-----------")
+    print(f"\t {s[6]} | {s[7]} | {s[8]} \n")
+    
     
 def cls():
     os.system('cls' if os.name=='nt' else 'clear')
